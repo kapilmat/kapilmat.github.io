@@ -40,6 +40,7 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <!-- CUSTOM STYLES -->
     <link rel="stylesheet" type="text/css" href="css/custom.css">
+    <link rel="stylesheet" type="text/css" href="css/register.css">
 
     <!--[if IE]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -64,7 +65,7 @@
 
     <!-- START SITE -->
     <div id="wrapper">
-        
+
 
         <header class="header">
             <div class="container">
@@ -98,7 +99,7 @@
 
                                 <li class="cartmenu"><a data-toggle="modal" data-target="#exampleModal"><i class="fa fa-sign-in" aria-hidden="true"></i></a></li>
 
-            
+
                                 <li class="dropdown cartmenu searchmenu hasmenu">
                                     <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-search"></i></a>
                                     <ul class="dropdown-menu show-right">
@@ -123,71 +124,34 @@
             </div><!-- end container -->
         </header><!-- end header -->
         <div class="bd-example">
-  
+
   <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" >
     <div class="matani-drop" style="background:rgba(0,0,0,0.7); z-index:0; position:fixed; top:0px; left:0px; width:100%; height:100%;"></div>
     <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        
-        <div id="tabs" class="modal-header">
-             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-            </button>
-          
-            <ul>
-                <li><a href="#tabs-0"><h4 class="modal-title" id="exampleModalLabel">Login Here!</h4></a></li>
-                <li><a href="#tabs-2"><h4 class="modal-title1" id="exampleModalLabel1">Signup Here!</h4></a></li>
-        </ul>
-        <div id="tabs-0">
-        <div class="modal-body">
+      <div class="modal-content custom-login-registor-container">
+        <div class="custom-login-registor-head">
+
+        </div>
+        <div class="custom-login-registor-content">
           <form action="">
             <div class="form-group">
-              <label for="recipient-name" class="form-control-label">Email:</label>
-              <input type="text" class="form-control" id="recipient-name" name="email"></input>
+              <input type="text" class="form-control" id="recipient-name" name="email" placeholder="Email ID/Mobile Number"></input>
             </div>
-            <div class="form-group">
-              <label for="message-text" class="form-control-label">Password:</label>
-              <input class="form-control" id="message-text" type="password" name="password"></input>
+            <div class="form-group" style="margin-bottom:5px;">
+              <input class="form-control" id="message-text" type="password" name="password" placeholder="Password"></input>
             </div>
+            <p class="text-right" style="color: #4E4E4E;"> Forget Password ?</p>
           </form>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary"><a href="member-profile.html">Login</a></button>
-        </div>
+          <div class="text-center">
+        <button class="custom-login-registor-button center">Login</button>
       </div>
+      <p class="text-center">or Log in with</p>
+      <div class="text-center">
+        <img src="images/google_sign.svg" height="40px;">
+        <img src="images/facebook_sign.svg" height="40px;">
+      </div>
+        </div>
 
-        <div id="tabs-2">
-        <div class="modal-body">
-              <div class="form-group">
-              <label for="recipient-name" class="form-control-label">Name:</label>
-              <input type="text" class="form-control" id="recipient-name" name="name"></input>
-            </div>
-            <div class="form-group">
-              <label for="recipient-name" class="form-control-label">Class:</label>
-              <input type="text" class="form-control" id="recipient-name" name="name"></input>
-            </div>
-            <div class="form-group">
-              <label for="recipient-name" class="form-control-label">Email:</label>
-              <input type="text" class="form-control" id="recipient-name" name="email"></input>
-            </div>
-            <div class="form-group">
-              <label for="recipient-name" class="form-control-label">Mobile No.:</label>
-              <input type="text" class="form-control" id="recipient-name" name="mob"></input>
-            </div>
-            <div class="form-group">
-              <label for="message-text" class="form-control-label">Password:</label>
-              <input class="form-control" id="message-text" type="password" name="password"></input>
-            </div>
-          </form>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Signup</button>
-        </div>
-      </div>
-  </div>
-      
     </div>
   </div>
 </div>
@@ -204,11 +168,11 @@
                                 <img src="images/index.gif" alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina/>
                                 <!-- LAYERS -->
                                 <!-- LAYER NR. 1 -->
-                               
+
                             </li>
                         </ul>
                         <div class="tp-static-layers"></div>
-                        <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div> 
+                        <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>
                     </div>
                 </div><!-- END REVOLUTION SLIDER -->
             </div>
@@ -392,7 +356,7 @@
                         <div class="all-buttons text-center">
                             <a href="#" class="btn btn-primary btn-lg btn-square">VIEW ALL COURSES</a>
                         </div><!-- end allbuttons -->
-                    </div><!-- end col -->  
+                    </div><!-- end col -->
                 </div><!-- end row -->
             </div><!-- end container -->
         </section><!-- end section -->
@@ -418,7 +382,7 @@
                                         <a href="#" title=""><i class="fa fa-google-plus"></i></a>
                                     </div><!-- end shop-bottom -->
                                 </div><!-- end magnifier -->
-                            </div><!-- end post-media -->    
+                            </div><!-- end post-media -->
                             <div class="team-desc">
                                 <h4>John DOE</h4>
                                 <small>Web Designer</small>
@@ -439,7 +403,7 @@
                                         <a href="#" title=""><i class="fa fa-google-plus"></i></a>
                                     </div><!-- end shop-bottom -->
                                 </div><!-- end magnifier -->
-                            </div><!-- end post-media -->    
+                            </div><!-- end post-media -->
                             <div class="team-desc">
                                 <h4>Jenny SENDINS</h4>
                                 <small>English Teacher</small>
@@ -460,7 +424,7 @@
                                         <a href="#" title=""><i class="fa fa-google-plus"></i></a>
                                     </div><!-- end shop-bottom -->
                                 </div><!-- end magnifier -->
-                            </div><!-- end post-media -->    
+                            </div><!-- end post-media -->
                             <div class="team-desc">
                                 <h4>Rick BOBSEN</h4>
                                 <small>Graphic Designer</small>
@@ -481,7 +445,7 @@
                                         <a href="#" title=""><i class="fa fa-google-plus"></i></a>
                                     </div><!-- end shop-bottom -->
                                 </div><!-- end magnifier -->
-                            </div><!-- end post-media -->    
+                            </div><!-- end post-media -->
                             <div class="team-desc">
                                 <h4>Andy ROBINSON</h4>
                                 <small>Fashion Designer</small>
@@ -493,25 +457,25 @@
             </div><!-- end container -->
         </section><!-- end section -->
 
-     
+
 
         <section class="welcomebox-wrapper">
             <div class="container">
-                <div class="welcomebox m900">   
+                <div class="welcomebox m900">
                     <div class="row">
                         <div class="col-md-8 col-sm-8 col-xs-12">
                             <h2>Excited to Join Us!</h2>
                             <p>Welcome to Teachme creative site template for learning websites and companies.</p>
                         </div><!-- end col -->
                         <div class="col-md-4 col-sm-4 col-xs-12 text-right">
-                            <a data-toggle="modal" data-target="#exampleModal1" class="btn btn-default">SignUp</a>         
+                            <a data-toggle="modal" data-target="#exampleModal1" class="btn btn-default">SignUp</a>
                         </div><!-- end col -->
                     </div><!-- end row -->
-                </div><!-- end callout -->  
+                </div><!-- end callout -->
             </div>
         </section><!-- end section -->
 <div class="bd-example">
-  
+
   <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" >
     <div class="matani-drop" style="background:rgba(0,0,0,0.7); z-index:0; position:fixed; top:0px; left:0px; width:100%; height:100%;"></div>
     <div class="modal-dialog" role="document">
@@ -573,7 +537,7 @@
                         </div><!-- end widget -->
                     </div><!-- end col -->
 
-                    
+
 
                     <div class="col-md-4">
                         <div class="widget">
@@ -616,7 +580,7 @@
                                             <h4>Learning Web Design & Development</h4>
                                             <small>View Course</small>
                                         </a>
-                                    </div>  
+                                    </div>
                                 </li>
                                 <li class="col-md-4 col-sm-4 col-xs-12">
                                     <div class="post">
@@ -625,7 +589,7 @@
                                             <h4>Graphic Design Introduction Course</h4>
                                             <small>View Course</small>
                                         </a>
-                                    </div>  
+                                    </div>
                                 </li>
                                 <li class="col-md-4 col-sm-4 col-xs-12">
                                     <div class="post">
@@ -634,9 +598,9 @@
                                             <h4>Social Media Marketing Strategy</h4>
                                             <small>View Course</small>
                                         </a>
-                                    </div>  
+                                    </div>
                                 </li>
-                            </ul>   
+                            </ul>
                         </div><!-- end postpager -->
                     </div><!-- end col -->
                 </div><!-- end row -->
@@ -655,7 +619,7 @@
     <script type="text/javascript" src="revolution/js/jquery.themepunch.tools.min.js"></script>
     <script type="text/javascript" src="revolution/js/jquery.themepunch.revolution.min.js"></script>
 
-    <!-- SLIDER REVOLUTION 5.0 EXTENSIONS -->  
+    <!-- SLIDER REVOLUTION 5.0 EXTENSIONS -->
     <script type="text/javascript" src="revolution/js/extensions/revolution.extension.actions.min.js"></script>
     <script type="text/javascript" src="revolution/js/extensions/revolution.extension.carousel.min.js"></script>
     <script type="text/javascript" src="revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
@@ -666,11 +630,11 @@
     <script type="text/javascript" src="revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
     <script type="text/javascript" src="revolution/js/extensions/revolution.extension.video.min.js"></script>
     <script type="text/javascript">
-   
+
 
     (function($) {
     "use strict";
-        var tpj=jQuery;             
+        var tpj=jQuery;
         var revapi98;
             tpj(document).ready(function() {
                 if(tpj("#rev_slider_98_1").revolution == undefined){
@@ -711,7 +675,7 @@
             }
         }); /*ready*/
 
-        var tpj=jQuery;             
+        var tpj=jQuery;
         var revapi98;
             tpj(document).ready(function() {
                 if(tpj("#rev_slider_98_2").revolution == undefined){
@@ -770,8 +734,8 @@
   modal.find('.modal-title1').text('Sign Up Here!')
   modal.find('.modal-body input').val(recipient)
 })
-    </script>   
-    
+    </script>
+
   <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
   <script>
   $( function() {
