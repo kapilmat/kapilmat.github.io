@@ -8,7 +8,7 @@
 }
 
 .custom-login-registor-content{
-  padding: 20px 70px;
+  padding: 0px 70px 30px;
 }
 
 .custom-login-registor-content input{
@@ -27,4 +27,19 @@
   width: 300px;
   margin-top: 22px;
   margin-bottom: 22px;
+}
+
+.custom-login-registor-tabs ul{
+  list-style: none;
+}
+
+.custom-login-registor-tabs ul li{
+  display: inline-flex;
+  font-weight: 600;
+  margin-left: 20px;
+}
+
+.custom-login-registor-tabs .activ-li{
+  color: #3CA1DB;
+  border-bottom: 3px solid #3CA1DB;
 }
